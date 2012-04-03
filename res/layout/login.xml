@@ -11,8 +11,9 @@
                 <TextView android:layout_width="wrap_content"
                         android:layout_height="wrap_content" android:id="@+id/UsernameBox"
                         android:text="@string/username"></TextView>
-                <EditText android:text="@+id/EditText02" android:id="@+id/EditText02"
-                        android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+                <EditText android:text="" android:id="@+id/EditText02"
+                        android:layout_height="wrap_content"
+                        android:hint="" android:layout_width="128dp"></EditText>
         </LinearLayout>
         <LinearLayout android:id="@+id/LinearLayout03"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
@@ -20,8 +21,9 @@
                 <TextView android:layout_width="wrap_content"
                         android:layout_height="wrap_content" android:id="@+id/PasswordBox"
                         android:text="@string/password"></TextView>
-                <EditText android:text="@+id/EditText01" android:id="@+id/EditText01"
-                        android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+                <EditText android:text="@+id/EditText01" android:id="@+id/EditText01" android:layout_width="135dp" android:layout_height="wrap_content">
+                    <requestFocus></requestFocus>
+                </EditText>
         </LinearLayout>
         <LinearLayout android:id="@+id/LinearLayout03"
                 android:layout_height="wrap_content" android:layout_gravity="left"
@@ -33,10 +35,6 @@
                         android:layout_width="wrap_content" android:layout_height="wrap_content"
                         android:layout_gravity="right"></EditText>
         </LinearLayout>
-
-
-        <Button android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
-                android:id="@+id/LoginButton" android:text="@string/login"></Button>
+        <Button android:text="@string/login" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/LoginButton" android:layout_height="wrap_content"></Button>
 
 </LinearLayout>

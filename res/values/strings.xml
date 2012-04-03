@@ -2,8 +2,8 @@
 <resources>
     <string name="hello">Hello World, OwlSpottersClientActivity!</string>
     <string name="app_name">OwlSpottersClient</string>
-    <string name="password"></string>
-    <string name="Server"></string>
-    <string name="username"></string>
-    <string name="login"></string>
+    <string name="password">Password: </string>
+    <string name="Server">MCMURTRY</string>
+    <string name="username">Username: </string>
+    <string name="login">Login</string>
 </resources>
