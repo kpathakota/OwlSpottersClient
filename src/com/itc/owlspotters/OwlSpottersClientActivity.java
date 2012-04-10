@@ -24,7 +24,7 @@ public class OwlSpottersClientActivity extends TabActivity {
 		// Initialize a TabSpec for each tab and add it to the TabHost
 		spec = tabHost
 				.newTabSpec("friends")
-				.setIndicator("Artists",
+				.setIndicator("Friends",
 						res.getDrawable(R.drawable.ic_tab_friends))
 				.setContent(intent);
 		tabHost.addTab(spec);
@@ -33,7 +33,7 @@ public class OwlSpottersClientActivity extends TabActivity {
 		intent = new Intent().setClass(this, EventsActivity.class);
 		spec = tabHost
 				.newTabSpec("events")
-				.setIndicator("Albums",
+				.setIndicator("Events",
 						res.getDrawable(R.drawable.ic_tab_events))
 				.setContent(intent);
 		tabHost.addTab(spec);
@@ -41,7 +41,7 @@ public class OwlSpottersClientActivity extends TabActivity {
 		intent = new Intent().setClass(this, FavoritesActivity.class);
 		spec = tabHost
 				.newTabSpec("favorites")
-				.setIndicator("Songs",
+				.setIndicator("Favorites",
 						res.getDrawable(R.drawable.ic_tab_favorites))
 				.setContent(intent);
 		tabHost.addTab(spec);
